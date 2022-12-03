@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    background: rgb(92, 92, 255);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#container{
+    background: white;
+    color:black;
+    margin: 20px;
+    height: 47vh;
+    width:40vw;
+    border-radius: 7px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#container h1{
+    text-align: center;
+    font-size: 2.5rem;
+    padding-top: 2.5rem;
+    padding-bottom: 1.5rem;
+    color:rgb(65, 64, 64);
+}
+
+span{
+    font-weight:bold;
+    font-size:20px
+  
+}
+
+.quote{
+    padding-bottom: 2rem;
+    padding: 10px 10px;
+    color:rgb(65, 64, 64);
+}
+
+.speaker{
+    margin-left: 70%;
+    font-style: italic;
+    margin-top: 2rem;
+}
+
+button{
+    width:6rem;
+    height: 2.5rem;
+    margin-left: 70%;
+    border:none;
+    border-radius: 3px;
+    background-color:rgb(92, 92, 255) ;
+    color:whitesmoke;
+    margin-top: 3rem;
+    cursor:pointer;
+    
+}
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+   #container{
+    width:95vw;
+    height: 40vh;
+   }
+
+   #container h1{
+    text-align: center;
+    font-size: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+span{
+    font-weight:bold;
+    font-size:20px
+  
+}
+
+.speaker{
+    margin-left: 50%;
+    margin-top:1px;
+}
+
+button{
+    width:6rem;
+    height: 2.5rem;
+    margin-left: 70%;
+    
+    background-color:rgb(92, 92, 255) ;
+    color:whitesmoke;
+    margin-top: 2rem;
+    
+}
+
+
+  }
